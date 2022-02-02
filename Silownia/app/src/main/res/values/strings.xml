@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Siłownia</string>
+    <string name="Logowanie_header">Aplikacja siłownia</string>
 </resources>
