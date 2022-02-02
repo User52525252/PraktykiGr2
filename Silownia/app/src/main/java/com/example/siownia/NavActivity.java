@@ -2,7 +2,9 @@ package com.example.siownia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class NavActivity extends AppCompatActivity {
 
@@ -10,5 +12,12 @@ public class NavActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav);
+    }
+
+    public void wyloguj(View view) {
+        {
+            Intent switchActivityIntent = new Intent(this, MainActivity.class);
+            startActivity(switchActivityIntent);
+        }
     }
 }
