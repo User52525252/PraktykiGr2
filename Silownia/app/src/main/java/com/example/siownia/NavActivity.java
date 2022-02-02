@@ -20,4 +20,10 @@ public class NavActivity extends AppCompatActivity {
             startActivity(switchActivityIntent);
         }
     }
+
+    public void Bmi(View view) {
+        Intent switchActivityIntent = new Intent(this, BMIActivity.class);
+        startActivity(switchActivityIntent);
+
+    }
 }

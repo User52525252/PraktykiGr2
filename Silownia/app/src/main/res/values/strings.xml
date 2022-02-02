@@ -3,4 +3,13 @@
     <string name="Logowanie_header">Aplikacja siłownia</string>
     <string name="Nav_header">Witamy!</string>
     <string name="Button_wylogowanie">Wyloguj</string>
+    <string name="wyglodzenie">wygłodzenie</string>
+    <string name="wychudzenie">wychudzenie</string>
+    <string name="niedowaga">niedowaga</string>
+    <string name="normalnawaga">waga prawidłowa</string>
+    <string name="nadwaga">nadwaga</string>
+    <string name="otylosc1">otyłość I stopnia</string>
+    <string name="otylosc2">otyłość II stopnia</string>
+    <string name="otylosc3">otyłość III stopnia</string>
+
 </resources>
