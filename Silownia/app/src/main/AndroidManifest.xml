@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Siłownia">
         <activity
+            android:name=".TreningActivity"
+            android:exported="false" />
+        <activity
             android:name=".BMIActivity"
             android:exported="false" />
         <activity
