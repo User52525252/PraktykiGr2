@@ -28,7 +28,7 @@ public class NavActivity extends AppCompatActivity {
     }
 
     public void trening(View view) {
-        Intent switchActivityIntent = new Intent(this, BMIActivity.class);
+        Intent switchActivityIntent = new Intent(this,  TreningActivity.class);
         startActivity(switchActivityIntent);
     }
 }
