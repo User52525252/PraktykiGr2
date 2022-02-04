@@ -6,7 +6,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:baselineAligned="false"
 android:orientation="vertical"
-android:background="@color/background1"
+android:background="#7A7A7A"
 tools:context=".TreningActivity">
 
 <EditText
@@ -29,14 +29,16 @@ tools:context=".TreningActivity">
         android:layout_marginTop="57dp"
         android:onClick="onClickAdd"
         android:text="Dodaj Ćwiczenie"
-        />
+        android:backgroundTint="@color/primary"/>
 
-<ListView
-    android:id="@+id/listView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true"
-    android:layout_marginStart="0dp"
-    android:layout_marginTop="107dp" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="107dp"
+
+        />
 </RelativeLayout>

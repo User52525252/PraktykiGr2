@@ -1,6 +1,8 @@
 package com.example.siownia;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -25,6 +27,8 @@ public class TreningActivity extends AppCompatActivity {
             ArrayAdapter adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,list);
             listView.setAdapter(adapter);
             inputText.setText("");
+            adapter.notifyDataSetChanged();
+
         }
     }
 
@@ -38,4 +42,7 @@ public class TreningActivity extends AppCompatActivity {
         listView=findViewById(R.id.listView);
         list = new ArrayList<>();
     }
+
+
+
 }
